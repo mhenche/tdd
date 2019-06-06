@@ -40,4 +40,10 @@ public class AddTest {
 	public void sumaLetras() {
 		App.add("1,3,A");
 	}
+	
+	
+	@Test(expected=Exception.class)
+	public void controlMilenials() {
+		assertTrue("Pues no es cero!!", App.add("1000,3") == 3);
+	}
 }
