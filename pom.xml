@@ -17,7 +17,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<runSuite>**/AllTests.class</runSuite>
+		<runSuite>**/AppTest.class</runSuite>
+		<runSuite>**/AddTest.class</runSuite>
 	</properties>
 
 	<dependencies>
